@@ -7,7 +7,7 @@
             text-align: center;
         }
 
-        div {
+        #div {
             width: 500px;
             height: 100px;
             border: 3px solid blue;
@@ -53,6 +53,39 @@
             margin-right: auto;
             border-radius: 15px;
         }
+        #bigdiv {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            z-index: 2;
+            text-align: center;
+        }
+
+        #smalldiv {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            left: 0px;
+            bottom: 0px;
+            z-index: 3;
+            text-align: center;
+
+        }
+
+        #bigdiv:hover {
+            animation-name: mel;
+            animation-duration: 3s;
+        }
+
+        @keyframes mel {
+            from {
+                height: 100px;
+            }
+
+            to {
+                height: 200px;
+            }
+        }
     </style>
 </head>
 
@@ -62,13 +95,16 @@
 
 
     
-    <div>
+    <div id="div">
         <p><a href="contact.html">Contact</a>
             <a href="HOME.html">Home</a>
             <a href="about.html">About</a>
             <a href="products.html">Products</a>
-            <a href="contact ESP.html"><img src="ESP.png" alt="" ; width="50px"></a>
         </p>
+    </div>
+
+    <div id="bigdiv"> <a href="contact ESP.html"><img src="ESP.png" alt="" ; width="50px"></a>
+        <div id="smalldiv"> <a href="contact.html"><img src="image.jpg" alt="" ; width="50px"></a></div>
     </div>
 
     <h1 style="font-size:50px;text-align:center;">You can contact me:</h1>
