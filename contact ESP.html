@@ -55,24 +55,24 @@
         }
 
         #bigdiv {
-            position: absolute;
-            width: 100px;
-            height: 100px;
+            position: relative;
+            float: right;
+            width: 50px;
+            height: 50px;
             z-index: 2;
             text-align: center;
         }
 
         #smalldiv {
             position: absolute;
-            width: 100px;
-            height: 100px;
+            width: 50px;
+            height: 50px;
             left: 0px;
             bottom: 0px;
             z-index: 3;
             text-align: center;
 
         }
-
         #bigdiv:hover {
             animation-name: mel;
             animation-duration: 3s;
@@ -80,11 +80,11 @@
 
         @keyframes mel {
             from {
-                height: 100px;
+                height: 50px;
             }
 
             to {
-                height: 200px;
+                height: 100px;
             }
         }
     </style>
