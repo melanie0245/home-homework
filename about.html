@@ -3,32 +3,34 @@
 
 <head>
     <style>
+        #myDiv {
+            text-align: center;
+            width: 600px;
+            height: 65px;
+            border: 2px solid blue;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 50px;
+            vertical-align: middle;
+        }
+
         img {
             display: block;
             margin-left: auto;
             margin-right: auto;
-            border-radius: 20%;
+            
         }
 
         p {
             text-align: center;
         }
 
-        #div {
-            width: 500px;
-            height: 100px;
-            border: 3px solid blue;
-
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
 
         a:link,
         a:visited {
             background-color: rgb(245, 153, 153);
             color: black;
-            padding: 14px 25px;
+            padding: 5px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
@@ -40,11 +42,7 @@
             border: 5px solid rgb(120, 120, 226);
         }
 
-        h1 {
-            text-decoration: underline;
-            text-align: center;
-        }
-
+     
         #bigdiv {
             position: relative;
             float: right;
@@ -64,6 +62,7 @@
             text-align: center;
 
         }
+
         #bigdiv:hover {
             animation-name: mel;
             animation-duration: 3s;
@@ -71,44 +70,75 @@
 
         @keyframes mel {
             from {
+
                 height: 50px;
             }
 
             to {
+
                 height: 100px;
             }
+        }
+
+        body {
+
+            background-color: rgb(203, 235, 203);
+
+        }
+        #styleOfH1 {
+            font-size: 50px;
+            text-align: center;
+            text-decoration: underline;
+            
+        }
+
+
+        }
+        #styleOfH2 {
+            font-size: 30px;
+           
+        }
+
+        .flag {
+
+            width: 50px;
+            height: 50px;
+
         }
     </style>
 </head>
 
-<body style="background-color:rgb(203, 235, 203);">
-    <h>About</h>
+<h>About</h>
 
 
 
-    <div id="div">
-        <p><a href="about.html">About</a>
-            <a href="HOME.html">Home</a>
-            <a href="contact.html">Contact</a>
-            <a href="products.html">Products</a>
+<div id="myDiv">
+    <a href="about.html">About</a>
+    <a href="HOME.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="products.html">Products</a>
+    <div id="bigdiv">
+            <a href="about esp.html"><img class="flag" src="ESP.png" alt=""></a>
+            <div id="smalldiv">
 
-        </p>
-    </div>
+                <a href="about.html"><img class="flag" src="image.jpg" alt=""></a>
+            </div>
+        </div>
 
-    <div id="bigdiv"> <a href="about esp.html"><img src="ESP.png" alt="" ; width="50px"></a>
-        <div id="smalldiv"> <a href="about.html"><img src="image.jpg" alt="" ; width="50px"></a></div>
-    </div>
-
-    <h1 id="myHeader">This is the 4TPIF-E class</h1>
-
-    <img src="info.jpg" alt="foto">
+</div>
 
 
-    <h2 style="font-size:25px;">The LPEM has a twenty-year-long teaching experience completely conducted in English
-        within the field of the aircraft maintenance licence, which is also completed with a technicians diploma. As a
-        whole, the technical teaching experience of the LPEM has lasted for over 100 years.</h2>
 
-    <p><a href="http://www.lpem.lu/">LPEM.LU</a></p>
+<h1 id="styleOfH1">This is the 4TPIF-E class</h1>
+
+<img src="info.jpg" alt="foto">
+
+
+<h2 id="styleOfH2">The LPEM has a twenty-year-long teaching experience completely conducted in English
+    within the field of the aircraft maintenance licence, which is also completed with a technicians diploma. As a
+    whole, the technical teaching experience of the LPEM has lasted for over 100 years.</h2>
+
+<p><a href="http://www.lpem.lu/">LPEM.LU</a></p>
 
 </body>
 

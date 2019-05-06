@@ -7,28 +7,30 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            border-radius: 20%;
+            
         }
 
         p {
             text-align: center;
         }
 
-        #div {
-            width: 500px;
-            height: 100px;
-            border: 3px solid blue;
-
-            display: block;
+        #myDiv {
+            text-align: center;
+            width: 600px;
+            height: 65px;
+            border: 2px solid blue;
             margin-left: auto;
             margin-right: auto;
+            line-height: 50px;
+            vertical-align: middle;
         }
+
 
         a:link,
         a:visited {
             background-color: rgb(245, 153, 153);
             color: black;
-            padding: 14px 25px;
+            padding: 5px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
@@ -64,6 +66,7 @@
             text-align: center;
 
         }
+
         #bigdiv:hover {
             animation-name: mel;
             animation-duration: 3s;
@@ -78,33 +81,62 @@
                 height: 100px;
             }
         }
+
+        body {
+
+            background-color: rgb(203, 235, 203);
+
+        }
+
+        #styleOfH1 {
+            font-size: 50px;
+            text-align: center;
+            text-decoration: underline;
+
+        }
+
+
+        }
+
+        #styleOfH2 {
+            font-size: 30px;
+
+        }
+
+        .flag {
+
+            width: 50px;
+            height: 50px;
+
+        }
     </style>
 </head>
 
-<body style="background-color:rgb(203, 235, 203);">
+<body>
 
     <h>Sobre</h>
 
 
 
-    <div id="div">
-        <p><a href="about esp.html">Sobre</a>
-            <a href="HOME.html">Principal</a>
-            <a href="contact.html">Contacto</a>
-            <a href="products.html">Productos</a>
-        </p>
+    <div id="myDiv">
+        <a href="about esp.html">Sobre</a>
+        <a href="HOME.html">Principal</a>
+        <a href="contact.html">Contacto</a>
+        <a href="products.html">Productos</a>
+        <div id="bigdiv"> <a href="about.html"><img class="flag" src="image.jpg" alt=""></a>
+            <div id="smalldiv"> <a href="about esp.html"><img class="flag" src="ESP.png" alt=""></a></div>
+        </div>
+
     </div>
 
-    <div id="bigdiv"> <a href="about.html"><img src="image.jpg" alt="" ; width="50px"></a>
-        <div id="smalldiv"> <a href="about esp.html"><img src="ESP.png" alt="" ; width="50px"></a></div>
-    </div>
 
-    <h1 id="myHeader">Esta es la clase 4TPIF-E</h1>
+
+    <h1 id="styleOfH1">Esta es la clase 4TPIF-E</h1>
 
     <img src="info.jpg" alt="foto">
 
 
-    <h2 style="font-size:25px;">El LPEM tiene una experiencia docente de veinte anios de duracion, completamente en
+    <h2 id="styleOfH2">El LPEM tiene una experiencia docente de veinte anios de duracion, completamente en
         ingles.
         en el campo de la licencia de mantenimiento de aeronaves, que tambien se completa con un diploma de tecnicos.
         Como

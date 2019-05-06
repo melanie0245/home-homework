@@ -7,20 +7,22 @@
             text-align: center;
         }
 
-        #div {
-            width: 500px;
-            height: 100px;
-            border: 3px solid blue;
-            display: block;
+        #myDiv {
+            text-align: center;
+            width: 600px;
+            height: 65px;
+            border: 2px solid blue;
             margin-left: auto;
             margin-right: auto;
+            line-height: 50px;
+            vertical-align: middle;
         }
 
         a:link,
         a:visited {
             background-color: rgb(245, 153, 153);
             color: black;
-            padding: 14px 25px;
+            padding: 5px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
@@ -51,8 +53,9 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            border-radius: 15px;
+
         }
+
         #bigdiv {
             position: relative;
             float: right;
@@ -87,28 +90,51 @@
                 height: 100px;
             }
         }
+
+
+
+        #styleOfH1 {
+            font-size: 50px;
+            text-align: center;
+            text-decoration: underline;
+
+        }
+
+        body {
+
+            background-color: powderblue;
+
+        }
+
+        .flag {
+
+            width: 50px;
+            height: 50px;
+
+        }
     </style>
 </head>
 
-<body style="background-color:powderblue;">
+<body>
 
     <h>Contact</h>
 
 
-    
-    <div id="div">
-        <p><a href="contact.html">Contact</a>
-            <a href="HOME.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="products.html">Products</a>
-        </p>
+
+    <div id="myDiv">
+        <a href="contact.html">Contact</a>
+        <a href="HOME.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <div id="bigdiv"> <a href="contact ESP.html"><img class="flag" src="ESP.png" alt=""></a>
+            <div id="smalldiv"> <a href="contact.html"><img class="flag" src="image.jpg" alt=""></a>
+            </div>
+        </div>
     </div>
 
-    <div id="bigdiv"> <a href="contact ESP.html"><img src="ESP.png" alt="" ; width="50px"></a>
-        <div id="smalldiv"> <a href="contact.html"><img src="image.jpg" alt="" ; width="50px"></a></div>
-    </div>
 
-    <h1 style="font-size:50px;text-align:center;">You can contact me:</h1>
+
+    <h1 id="styleOfH1">You can contact me</h1>
 
     <ul>
         <li style="font-size:20px;">Melanie Parraga Iglesias</li>
@@ -116,7 +142,7 @@
         <li style="font-size:20px;">Email: melanie-parraga@hotmail.com</li>
     </ul>
 
-    <img src="co.png" alt="foto" style="border: 3px solid rgb(89, 0, 255);width:555px;height:300px;">
+    <img src="co.png" alt="foto">
 
 </body>
 
