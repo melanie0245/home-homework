@@ -1,5 +1,5 @@
 
-<body>
+
         #mydiv {
             text-align: center;
             width: 600px;
@@ -89,6 +89,7 @@
 
         #text {
             text-align: center;
+            font-weight: bold;
         }
 
         .one{
