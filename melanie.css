@@ -14,6 +14,8 @@
         #newimage {
             width: 390px;
             height: 250px;
+            text-align: center;
+            
         }
 
         a:link,
@@ -90,7 +92,12 @@
         #text {
             text-align: center;
             font-weight: bolder;
-            border: 2px solid rgba(55, 15, 231, 0.89);
+            border: 3px solid rgba(55, 15, 231, 0.89);
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 25px;
+            vertical-align: middle;
+           
         }
 
         .one{
