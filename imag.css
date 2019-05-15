@@ -1,23 +1,28 @@
 
-        #myImage {
-            position: absolute;
-            height: 200px;
-            width: 200px;
-            top: 300px;
-            right: 50px;
-            left: 0;
-            -webkit-animation: mymove 5s infinite;
-            animation: mymove 5s infinite;
-        }
+#myImage {
+position: absolute;
+height: 200px;
+width: 200px;
+top: 300px;
+right: 50px;
+left: 0;
+-webkit-animation: mymove 5s infinite;
+animation: mymove 5s infinite;
+}
 
-        @-webkit-keyframes mymove {
-            50% { left: 500px;
-            }
-        }
+ @-webkit-keyframes mymove {
+ 50% { left: 500px;}
+ }
 
-        @keyframes mymove {
-            50% {left: 500px;
-            }
-        }
+@keyframes mymove {
+50% {left: 500px;}
+ }
+        
+ div{
+    background-color: aquamarine;
+    height: 800px;
+    width: 690px;
+ }  
+
 
     
