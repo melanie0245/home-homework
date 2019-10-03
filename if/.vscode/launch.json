@@ -9,7 +9,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "C:\\Users\\parme028\\Documents\\if\\1st.html",
+            "url": "C:\\Users\\melanie\\Documents\\fromGithub\\home-homework\\if",
             "webRoot": "${workspaceFolder}"
         }
     ]
