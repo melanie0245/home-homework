@@ -28,7 +28,7 @@ if (age >= 20 && y == ("yes")) {
 
 }*/
 
-var age = prompt("How old are you?")
+/*var age = prompt("How old are you?")
 var y = prompt("Do you have a Diploma?")
 if (age > 20) {
     if (y == ("yes")) {
@@ -40,4 +40,4 @@ if (age < 20) {
 }
 if (y == ("no")) {
     alert("Go to study")
-}
+}*/
